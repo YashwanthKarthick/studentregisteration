@@ -1,0 +1,41 @@
+body {
+    background-image: url("school.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+.form-inputs {
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 20px;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #c51010;
+    border-radius: 4px;
+  }
+  
+  .form-input::placeholder {
+    color: #131212;
+  }
+  .container {
+   max-width: 400px;
+   margin: auto auto;
+   padding: 20px;
+   border: 1px solid #ccc;
+   background-color: #ce1b1b;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+  }
+    
