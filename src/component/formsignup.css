@@ -30,12 +30,18 @@ body {
    max-width: 400px;
    margin: auto auto;
    padding: 20px;
-   border: 1px solid #ccc;
-   background-color: #ce1b1b;
+   border: 3px solid #080808;
+   background-color: #e90808;
    display: flex;
    flex-direction: column;
    align-items: center;
    justify-content: center;
    height: 100vh;
+  }
+  .form-button
+  {
+    color: black;
+    background-color: seashell;
+    width: 75px;
   }
     

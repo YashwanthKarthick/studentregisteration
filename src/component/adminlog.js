@@ -11,18 +11,12 @@ const formsignup = () => {
     return (
         <div className='container' >
             <form className='form' onSubmit={handlesubmit}>
-                <h1>STUDENT LOGIN :</h1>
+                <h1>ADMIN LOGIN :</h1>
                 <div className='form-inputs'>
                     <label htmlFor="username" className='form-label'>
-                        Username
+                        Admin name
                     </label>
                     <input id="username" type='text' name='username' className='form-input' placeholder='Enter your user name' onChange={handlechange} />
-                </div>
-                <div className='form-inputs'>
-                    <label htmlFor='rollno' className='form-label'>
-                        Roll Number
-                    </label>
-                    <input id='rollno' type='text' name='rollno' className='form-input' placeholder='Enter your roll no' onChange={handlechange} />
                 </div>
                 <div className='form-inputs'>
                     <label htmlFor='password' className='form-label'>
